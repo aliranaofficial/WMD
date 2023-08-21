@@ -54,3 +54,12 @@ for(let i=1; i<=100; i++){
 
 }
 console.log("sum",sum, list);
+
+
+var num:number=69;
+console.log(num);
+
+
+
+
+
