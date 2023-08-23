@@ -75,7 +75,7 @@ do {
 
 
 
-let sum:number=2
+//let sum:number=2
 let list:number[]=[]
 for (let index=2; index<=300; index++){
    // console.log("index",index);
