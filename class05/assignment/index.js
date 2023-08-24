@@ -34,5 +34,18 @@ function AreaOfCircle(radius) {
 var radius = 7;
 var area = AreaOfCircle(radius);
 console.log("Area of circle is", area);
-// - Develop a program that reads a list of grades and uses the splice method to remove failing grades (below 50) from the array.
+// - Develop a program that reads a list of grades and uses the splice method to remove failing grades 
+//  (below 50) from the array.
+function removeFailingGrades(grades) {
+    for (let i = grades.length - 1; i >= 0; i--) {
+        if (grades[i] < 50) {
+            grades.splice(i, 1);
+        }
+    }
+    return grades;
+}
+// Example usage
+const grades = [80, 65, 45, 90, 55, 70];
+const filteredGrades = removeFailingGrades(grades);
+console.log("Filtered grades:", filteredGrades);
 // - Write a program that uses a function to find the largest element in an array of numbers.
