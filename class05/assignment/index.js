@@ -44,7 +44,6 @@ function removeFailingGrades(grades) {
     }
     return grades;
 }
-// Example usage
 const grades = [80, 65, 45, 90, 55, 70];
 const filteredGrades = removeFailingGrades(grades);
 console.log("Filtered grades:", filteredGrades);
