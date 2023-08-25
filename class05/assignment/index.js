@@ -48,3 +48,15 @@ const grades = [80, 65, 45, 90, 55, 70];
 const filteredGrades = removeFailingGrades(grades);
 console.log("Filtered grades:", filteredGrades);
 // - Write a program that uses a function to find the largest element in an array of numbers.
+function findLargestElement(numbers) {
+    let largest = numbers[0];
+    for (let i = 1; i < numbers.length; i++) {
+        if (numbers[i] > largest) {
+            largest = numbers[i];
+        }
+    }
+    return largest;
+}
+const numbers = [5, 10, 2, 8, 3];
+const largestElement = findLargestElement(numbers);
+console.log("The largest element is:", largestElement);
