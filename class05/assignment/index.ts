@@ -89,5 +89,4 @@ const largestElement = findLargestElement(numbers);
 console.log("The largest element is:", largestElement);
 
 
-// a quick brown fox jumps over a lazy dog 
-// a quick brown fox jumps over a lazy dog
+
