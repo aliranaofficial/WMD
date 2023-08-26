@@ -115,36 +115,29 @@ if (isLeapYear(year)) {
 else {
     console.log(`${year} is not a leap year.`);
 }
-/*
 // - Develop a program that determines the day of the week. Ask the user for a number (1-7) and use nested if statements
 // to print the corresponding day's name.
-
-function getDayOfWeek(dayNumber: number): string {
-    if (dayNumber === 1) {
-      return "Sunday";
-    } else if (dayNumber === 2) {
-      return "Monday";
-    } else if (dayNumber === 3) {
-      return "Tuesday";
-    } else if (dayNumber === 4) {
-      return "Wednesday";
-    } else if (dayNumber === 5) {
-      return "Thursday";
-    } else if (dayNumber === 6) {
-      return "Friday";
-    } else if (dayNumber === 7) {
-      return "Saturday";
-    } else {
-      return "Invalid input. Please enter a number between 1 and 7.";
-    }
-  }
-  
-  const userInput = prompt("Enter a number between 1 and 7:");
-  const dayNumber = parseInt(userInput);
-  
-  const dayOfWeek = getDayOfWeek(dayNumber);
-  console.log(`The corresponding day's name is ${dayOfWeek}.`);
-*/
+var day = 3;
+switch (day) {
+    case 1:
+        console.log("monday");
+        break;
+    case 2:
+        console.log("tuesday");
+        break;
+    case 3:
+        console.log("wednesday");
+        break;
+    case 4:
+        console.log("thursday");
+        break;
+    case 5:
+        console.log("friday");
+        break;
+    default:
+        console.log("weekend");
+        break;
+}
 // - Write a program that takes the number of units consumed by a user if it is greater than 100 then add 10% tax if 
 //greater than 200 then add 15% of tax so on up to if greater than 500 then add 25% of tax
 //Where the tax amount will be calculated by the amount of bill.
